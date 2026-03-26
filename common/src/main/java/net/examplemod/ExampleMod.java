@@ -1,10 +1,15 @@
 package net.examplemod;
 
+import net.examplemod.power.condition.ConditionSerializers;
+
+import static net.examplemod.power.ability.Abilities.ABILITIES;
+
 public class ExampleMod {
 
     public static final String MOD_ID = "examplemod";
 
     public static void init() {
-        // Mod initialization
+        ABILITIES.register();
+        ConditionSerializers.CONDITION_SERIALIZERS.register();
     }
 }
