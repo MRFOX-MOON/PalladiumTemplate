@@ -7,10 +7,10 @@ import net.threetag.palladiumcore.registry.RegistrySupplier;
 
 public class Abilities {
     public static final DeferredRegister<Ability> ABILITIES;
-    public static final RegistrySupplier<Ability> FREEZING_CIRCLE;
+    public static final RegistrySupplier<Ability> TEST_ABILITY;
 
     static {
         ABILITIES = DeferredRegister.create(ExampleMod.MOD_ID, Ability.REGISTRY);
-        FREEZING_CIRCLE = ABILITIES.register("test_ability", TestAbility::new);
+        TEST_ABILITY = ABILITIES.register("test_ability", TestAbility::new);
     }
 }

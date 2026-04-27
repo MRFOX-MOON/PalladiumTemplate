@@ -1,6 +1,6 @@
 package net.examplemod;
 
-import net.examplemod.power.condition.ConditionSerializers;
+import net.examplemod.condition.ConditionSerializers;
 
 import static net.examplemod.power.ability.Abilities.ABILITIES;
 

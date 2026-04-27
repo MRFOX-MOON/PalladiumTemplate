@@ -1,4 +1,4 @@
-package net.examplemod.power.condition;
+package net.examplemod.condition;
 
 import net.threetag.palladium.condition.ConditionSerializer;
 import net.threetag.palladiumcore.registry.DeferredRegister;

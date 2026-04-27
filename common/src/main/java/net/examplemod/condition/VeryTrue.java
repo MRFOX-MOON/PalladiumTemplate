@@ -1,4 +1,4 @@
-package net.examplemod.power.condition;
+package net.examplemod.condition;
 
 import com.google.gson.JsonObject;
 import net.threetag.palladium.condition.Condition;
