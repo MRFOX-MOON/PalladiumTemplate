@@ -1,0 +1,14 @@
+{
+  "pack": {
+    "id": "examplemod",
+    "description": "Palladium Example Mod :D",
+    "pack_format": 8,
+    "version": "1.0.0"
+  },
+  "dependencies": {
+    "common": {
+      "minecraft": ">=1.20.1",
+      "palladium": ">=4.0.0"
+    }
+  }
+}
